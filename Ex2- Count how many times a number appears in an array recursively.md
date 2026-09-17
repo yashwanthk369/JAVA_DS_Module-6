@@ -4,10 +4,15 @@
 To write a Java program to Count how many times a number appears in an array recursively.
 
 ## Algorithm
+
 1.Start
+
 2.Read the size of the array and input all elements into the array.
+
 3.Read the target number whose frequency you want to count.
+
 4.Call the recursive function countOccurrences(arr, index, target) If index == arr.length, return 0 If arr[index] == target, return 1 + countOccurrences(arr, index + 1, target) Else return countOccurrences(arr, index + 1, target)
+
 5.Display the returned count as the total number of occurrences. 
 
 ## Program:
